@@ -8,6 +8,9 @@ Small example of how a list of kmers can be removed from a genome assembly
 - pip
 - Jupyter notebook
 
+
+- > 8GB RAM
+
 # Advice on requirements
 
 If you don't have jupyter notebook (a software that allows enhanced and interactive data analysis in python) , the best is probably that you download it directly from https://www.anaconda.com/products/individual
@@ -23,4 +26,4 @@ user@computer:~$ jupyter notebook 25mers.ipynb
 
 # What does the notebook show ?
 
-The notebook shows how kmers can be retrieved from a human or mouse assembly, how we can make a summary report of the kmers localization in both genomes, and how we can remove a given list of kmers to create a new .fasta reference
+The notebook downloads a human and a mouse assembly. Then, it shows how kmers can be retrieved from a human or mouse assembly, how to make a small summary report of the kmers localization in both genomes (see example in .csv files given in the repo), and how we can remove a given list of kmers to create a new .fasta reference
