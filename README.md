@@ -21,7 +21,7 @@ If you don't have jupyter notebook (a software that allows enhanced and interact
 user@computer:~$ pip install tqdm pandas 
 user@comàputer:~$ git clone https://github.com/GDelevoye/kmers_removal.git
 user@computer:~$ cd kmers_removal
-user@computer:~$ jupyter notebook 25mers.ipynb
+user@computer:~$ jupyter notebook 25mer.ipynb
 ```
 
 # What does the notebook show ?
