@@ -16,19 +16,19 @@ pip install -e ./kmers_removal
 
 # Run tests
 
-Only a terminal test is implemented by now
+Only a terminal test is implemented by now. It is implemented with pytest
 
 ```console 
 
 guillaume@A320MA:~/GitHub/kmers_removal$ pytest .
-=============================================================================================== test session starts ===============================================================================================
+===================== test session starts =====================
 platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
 rootdir: /home/guillaume/GitHub/kmers_removal
-collected 1 item                                                                                                                                                                                                  
+collected 1 item                                              
 
-test/test_kmers_removal_launcher.py .                                                                                                                                                                       [100%]
+test/test_kmers_removal_launcher.py .                   [100%]
 
-================================================================================================ 1 passed in 0.32s ================================================================================================
+====================== 1 passed in 0.33s ======================
 
 ```
 
