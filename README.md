@@ -1,29 +1,45 @@
 # kmers_removal
 
-Small example of how a list of kmers can be removed from a genome assembly
+Small example of how a list of kmers (specified in a .txt file) can be removed from a genome assembly
 
 # Requirements
 
 - python 3
 - pip
-- Jupyter notebook
+- 8GB RAM
 
-
-- > 8GB RAM
-
-# Advice on requirements
-
-If you don't have jupyter notebook (a software that allows enhanced and interactive data analysis in python) , the best is probably that you download it directly from https://www.anaconda.com/products/individual
-
-# How to launch the notebook
+# Installation 
 
 ```console
-user@computer:~$ pip install tqdm pandas 
-user@comàputer:~$ git clone https://github.com/GDelevoye/kmers_removal.git
-user@computer:~$ cd kmers_removal
-user@computer:~$ jupyter notebook 25mer.ipynb
+git clone https://github.com/GDelevoye/kmers_removal.git
+pip install -e ./kmers_removal
 ```
 
-# What does the notebook show ?
+# Usage 
 
-The notebook downloads a human and a mouse assembly. Then, it shows how kmers can be retrieved from a human or mouse assembly, how to make a small summary report of the kmers localization in both genomes (see example in .csv files given in the repo), and how we can remove a given list of kmers to create a new .fasta reference free from these kmers
+```console 
+guillaume@A320MA:~$ kmers_removal --help
+usage: kmers_removal [-h] --fastaFile FASTAFILE --kmerFile KMERFILE --output
+                     OUTPUT
+                     [--verbosity {NONE,DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                     [--report REPORT]
+
+Allows to remove a given list of kmers in a genome assembly
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --fastaFile FASTAFILE, -f FASTAFILE
+                        Input .fasta file where kmers must be removed
+  --kmerFile KMERFILE, -k KMERFILE
+                        Path to a file with 1 kmer to remove per line (can be
+                        list of files). Must contain onlyupper A, T, C or G
+                        and \n
+  --output OUTPUT, -o OUTPUT
+                        output .fa file
+  --verbosity {NONE,DEBUG,INFO,WARNING,ERROR,CRITICAL}, -v {NONE,DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                        Choose your verbosity on stdout. Default: INFO. If
+                        verbosity < INFO, no progress_bar is displayed.
+  --report REPORT, -r REPORT
+                        [FACULTATIVE - DEFAULT is None] Path to a report of
+                        the kmers encountered
+```
