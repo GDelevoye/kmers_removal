@@ -42,3 +42,7 @@ optional arguments:
                         [FACULTATIVE - DEFAULT is None] Path to a report of
                         the kmers encountered
 ```
+
+# Credits
+
+Guillaume Delevoye 2021
