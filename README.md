@@ -26,4 +26,4 @@ user@computer:~$ jupyter notebook 25mer.ipynb
 
 # What does the notebook show ?
 
-The notebook downloads a human and a mouse assembly. Then, it shows how kmers can be retrieved from a human or mouse assembly, how to make a small summary report of the kmers localization in both genomes (see example in .csv files given in the repo), and how we can remove a given list of kmers to create a new .fasta reference
+The notebook downloads a human and a mouse assembly. Then, it shows how kmers can be retrieved from a human or mouse assembly, how to make a small summary report of the kmers localization in both genomes (see example in .csv files given in the repo), and how we can remove a given list of kmers to create a new .fasta reference free from these kmers
