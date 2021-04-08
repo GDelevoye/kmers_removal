@@ -6,7 +6,6 @@ Small example of how a list of kmers (specified in a .txt file) can be removed f
 
 - python 3
 - pip
-- 8GB RAM
 
 # Installation 
 
