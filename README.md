@@ -7,7 +7,13 @@ Small example of how a list of kmers (specified in a .txt file) can be removed f
 - python 3
 - pip
 
-# Installation 
+# Installation (PyPi)
+
+```console 
+pip install kmers_removal 
+```
+
+# Installation (Directly from source)
 
 ```console
 git clone https://github.com/GDelevoye/kmers_removal.git
