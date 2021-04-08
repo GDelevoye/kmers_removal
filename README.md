@@ -1,6 +1,6 @@
 # kmers_removal
 
-Small example of how a list of kmers (specified in a .txt file) can be removed from a genome assembly
+Small example of how a list of kmers (specified in a .txt file) can be removed from a genome assembly. An example can be found in "notebook", where we remove some human kmers from the mouse genome.
 
 # Requirements
 
