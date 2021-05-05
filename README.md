@@ -21,7 +21,7 @@ pip install -e ./kmers_removal
 ```
 
 
-# Usage 
+# Usage (CLI)
 
 ```console 
 guillaume@A320MA:~$ kmers_removal --help
