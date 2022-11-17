@@ -7,7 +7,7 @@ Small example of how a list of kmers (specified in a .txt file) can be removed f
 - python 3
 - pip
 
-# Installation (PyPi)
+# Installation (pip)
 
 ```console 
 pip install kmers_removal 
@@ -56,15 +56,7 @@ Only a terminal test is implemented by now. It is implemented with pytest
 
 ```console 
 
-guillaume@A320MA:~/GitHub/kmers_removal$ pytest .
-===================== test session starts =====================
-platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
-rootdir: /home/guillaume/GitHub/kmers_removal
-collected 1 item                                              
-
-test/test_kmers_removal_launcher.py .                   [100%]
-
-====================== 1 passed in 0.33s ======================
+user@computer:~/GitHub/kmers_removal$ pytest .
 
 ```
 
