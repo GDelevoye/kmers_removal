@@ -22,8 +22,6 @@ setup(
     install_requires=[
         'pandas',
         'tqdm',
-        'argparse',
-        'logging'
     ],
     entry_points={'console_scripts': [
         "kmers_removal = kmers_removal.kmers_removal_launcher:main"
